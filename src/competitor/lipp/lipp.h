@@ -1,5 +1,6 @@
 #include"./src/src/core/lipp.h"
 #include"../indexInterface.h"
+#pragma once
 
 template<class KEY_TYPE, class PAYLOAD_TYPE>
 class LIPPInterface : public indexInterface<KEY_TYPE, PAYLOAD_TYPE> {
